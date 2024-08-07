@@ -28,6 +28,14 @@ const myfunction = function(){
   
 }
 
-console.log(typeof myfunction);
-console.log(typeof array);
-console.log(typeof obj);
+// console.log(typeof myfunction);
+// console.log(typeof array);
+// console.log(typeof obj);
+
+//stack(primitive),heap(Non-primitive)
+
+let aname = "simi"
+let anotherName = aname;
+anotherName ="simran";
+console.log(anotherName)
+console.log(aname);
